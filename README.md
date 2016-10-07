@@ -9,7 +9,7 @@ This is a simple bash script to run after a fresh Ubuntu GNOME install. It will 
 - KeePass 2
 - Spotify (with PPA)
 - Steam
-- Sublime Text 3
+- Sublime Text 3 (with PPA)
 - Tor Browser (with PPA)
 - Ubuntu restricted addons/extras
 - VirtualBox
