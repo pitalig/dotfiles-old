@@ -44,9 +44,11 @@ sudo apt-get install -y chromium-browser \
 git \
 gnome-tweak-tool \
 keepass2 \
+p7zip \
 spotify-client \
 steam \
 sublime-text-installer \
+terminator \
 tor \
 ubuntu-restricted-addons \
 ubuntu-restricted-extras \
