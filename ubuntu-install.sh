@@ -19,9 +19,6 @@ echo 'Done.'
 # -----------------------------------------------------------------------------
 echo '=> Add PPAs'
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3 # Sublime Text 3
-sudo add-apt-repository ppa:upubuntu-com/tor-bundle -y # tor
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886 # spotify
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list # spotify
 
 echo 'Done.'
 
@@ -40,19 +37,5 @@ echo 'Done.'
 # => Install apps
 # -----------------------------------------------------------------------------
 echo '=> Install apps'
-sudo apt-get install -y chromium-browser \
-git \
-gnome-tweak-tool \
-keepass2 \
-p7zip \
-spotify-client \
-steam \
-sublime-text-installer \
-terminator \
-tor \
-ubuntu-restricted-addons \
-ubuntu-restricted-extras \
-virtualbox \
-vlc
-
+sudo apt-get install -y chromium-browser gnome-tweak-tool p7zip sublime-text-installer ubuntu-restricted-addons ubuntu-restricted-extras vlc
 echo 'Done.'

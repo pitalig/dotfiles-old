@@ -1,33 +1,54 @@
-# Ubuntu Post Install Bash Script
+# Dotfiles and install script
 
-This is a simple bash script to run after a fresh Ubuntu GNOME install. It will add/remove some PPAs and packages.
+This is a bash script to run after a fresh Ubuntu Gnome or Arch/Manjaro Gnome install.
 
-## Installed packages:
-- Chromium
-- Git
-- Gnome tweak tool
-- KeePass 2
-- p7zip
-- Spotify (with PPA)
-- Steam
-- Sublime Text 3 (with PPA)
-- Terminator
-- Tor Browser (with PPA)
-- Ubuntu restricted addons/extras
-- VirtualBox
-- VLC
+## Ubuntu script:
 
-## Removed packages:
-- Aisleriot Solitaire
-- Brasero
-- Empathy
-- Evolution
-- Mahjongg
-- Mines
-- Sudoku
+* Remove apps:
+    - aisleriot Solitaire
+    - brasero
+    - empathy
+    - evolution
+    - mahjongg
+    - mines
+    - sudoku
+* Update system and apps
+* Install apps:
+    - chromium
+    - gnome tweak tool
+    - p7zip
+    - sublime Text 3 (with PPA)
+    - ubuntu restricted addons/extras
+    - vlc
+
+## Arch / Manjaro script:
+
+* Remove apps: 
+    - brasero
+    - empathy
+    - evolution
+    - hexchat
+* Update system and apps
+* Install apps:
+    - gvim
+    - zsh
+    - gnome-tweak-tool
+    - chromium
+    - chromium-widevine
+    - visual-studio-code
+    - gimp
+    - rambox-bin
+    - htop
+    - Oh-my-zsh
+* Set keyboard shortcuts:
+    - (CTRL + ALT + T) => gnome-terminal
+* Copy configuration files to $HOME:
+    - .zshrc
+    - .gitconfig
 
 ## Usage:
-- Download the script => `wget https://raw.githubusercontent.com/pituca292/ubuntu-post-install-script/master/ubuntu-post-install-script.sh`
-- Run => `bash ubuntu-post-install-script.sh`
-
-Based on [rougeth - ubuntu-post-install.sh](https://gist.github.com/rougeth/8108714)
+- Install GIT
+- Clone repo => `git clone https://github.com/pitalig/dotfiles.git dotfiles`
+- Change **name** and **email** at **.gitconfig**
+- Run => `sh install.sh`
+- Follow screen instructions
