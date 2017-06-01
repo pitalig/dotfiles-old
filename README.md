@@ -48,7 +48,7 @@ This is a bash script to run after a fresh Ubuntu Gnome or Arch/Manjaro Gnome in
 
 ## Usage:
 - Install GIT
-- Clone repo => `git clone https://github.com/pitalig/dotfiles.git dotfiles`
+- Clone repo => `git clone https://github.com/pitalig/dotfiles.git dotfiles && cd dotfiles`
 - Change **name** and **email** at **.gitconfig**
 - Run => `sh install.sh`
 - Follow screen instructions
